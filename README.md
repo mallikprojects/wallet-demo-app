@@ -128,3 +128,6 @@ npm run dev
 ```
 ## TODO
 backend not implemented
+Production build not tried
+No database support
+No unit test cases
