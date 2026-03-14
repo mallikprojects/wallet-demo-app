@@ -127,11 +127,11 @@ npm run dev
 
 ```
 ## TODO
-** backend not implemented
-** Production build not tried
-** No database support
-** No unit test cases
-** not integrated with the main code base and hence point 5 ( front end) is not adressed yet
+- backend not implemented
+- Production build not tried
+- No database support
+- No unit test cases
+- not integrated with the main code base and hence point 5 ( front end) is not adressed yet
 
 ##Disclaimer
-Leveraged Claude Sonnet 4.6 during implementation
+- Leveraged Claude Sonnet 4.6 during implementation
