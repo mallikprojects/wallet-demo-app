@@ -1,0 +1,33 @@
+{
+  "network": {
+    "name": "Polygon Amoy Testnet",
+    "shortName": "amoy",
+    "chainId": "0x13882",
+    "chainIdDecimal": 80002,
+    "rpcUrl": "https://rpc-amoy.polygon.technology",
+    "blockExplorer": "https://amoy.polygonscan.com",
+    "faucetUrl": "https://faucet.polygon.technology/",
+    "testnet": true,
+    "currency": {
+      "name": "POL",
+      "symbol": "POL",
+      "decimals": 18
+    },
+    "gas": {
+      "maxPriorityFeePerGwei": "30",
+      "maxFeePerGwei": "100",
+      "note": "Polygon Amoy requires minimum 25 gwei priority fee"
+    }
+  },
+  "contract": {
+    "name": "Reward",
+    "address": "0x536439961895BE509a1660218C3646B5BCc8da95",
+    "rewardPrice": "0.01",
+    "rewardPriceWei": "10000000000000000"
+  },
+  "deployment": {
+    "deployer": "0x3Cbff1c1Bf988fCfAF30D0755A3cb068d98e145F",
+    "deployedAt": "2026-03-13T14:37:02.517Z",
+    "blockNumber": 35142544
+  }
+}
