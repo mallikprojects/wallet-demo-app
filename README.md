@@ -1,14 +1,14 @@
-# Demo App - Web3 Smart Contract Interaction
+# Wallet Demo App 
 
-A complete Web3 DApp (Decentralized Application) built with React + Vite that demonstrates real-time interaction with a smart contract on Polygon Amoy testnet. Users can connect their MetaMask wallet, read contract data, and execute blockchain transactions to buy reward tokens.
+A Demo wallet app built with React + Vite that demonstrates real-time interaction with a smart contract on Polygon Amoy testnet. Users can connect their MetaMask wallet, read contract data, and execute blockchain transactions to buy reward tokens.
 
 ## 🎯 What This Demo Does
 
 This application allows you to:
 
 1. **Connect MetaMask Wallet** - Securely connect your  wallet
-2. **View Network & Contract Info** - See blockchain configuration and contract details. By default the data is read from config/config.json and config/abi.json. Currently EDIT option is disabled for MVP
-3. **Read Smart Contract Data** - Query your reward balance 
+2. **View Network & Contract Info** - See blockchain configuration and contract details. By default, the data is read from config/config.json and config/abi.json. Currently, the EDIT option is disabled for MVP
+3. **Read Smart Contract Data** - Query  reward balance from smart contract ( A demo contract is deployed on Polygon Amoy test network)
 4. **Execute Transactions** - Buy reward tokens by sending POL (Polygon's native token)
 
 ### Smart Contract
@@ -66,19 +66,12 @@ The app will be available at `http://localhost:5173/`
 ## 📋 Features
 
 ### ✅ Wallet Connection
-- Real MetaMask integration using ethers.js
-- Network validation (must be on Polygon Amoy)
-- Visual connection status indicators
-- Easy reconnect/switch wallet functionality
+- MetaMask integration using ethers.js
 
 ### 📖 Read Smart Contract Data
 - **Dynamic ABI Reader** - Automatically parses contract functions
 - Query any view function from the contract:
-  - `REWARD_PRICE()` - Get the price per reward (0.01 POL)
-  - `getMyBalance()` - Check your current reward balance
-- Real-time blockchain data fetching
-- No gas fees for read operations
-
+  
 ### ✍️ Execute Transactions
 - **Buy Rewards** - Purchase reward tokens with POL
 - Automatic cost calculation
@@ -125,24 +118,6 @@ All blockchain settings are in `src/config/config.json`:
 }
 ```
 
-## 🐛 Troubleshooting
-
-### "MetaMask not installed"
-- Install MetaMask from [metamask.io](https://metamask.io)
-- Refresh the page after installation
-
-### "Please switch to Polygon Amoy testnet"
-- Open MetaMask → Networks → Select "Polygon Amoy Testnet"
-- Or add the network manually (see Step 3 in Quick Start)
-
-### "Insufficient funds"
-- Get free test POL from [Polygon Faucet](https://faucet.polygon.technology/)
-- You need POL for gas fees when executing transactions
-
-### "Transaction failed"
-- Check you have enough POL (balance + gas fees)
-- Verify you're on the correct network (Polygon Amoy)
-- Make sure the amount is valid (positive number)
 
 ## 📝 Build Commands
 
