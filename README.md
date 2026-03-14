@@ -131,3 +131,6 @@ backend not implemented
 Production build not tried
 No database support
 No unit test cases
+
+##Disclaimer
+Leveraged Claude Sonnet 4.6 during implementation
